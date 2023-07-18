@@ -1,0 +1,13 @@
+.todo-row {
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: #eeeeee;
+}
+
+.todo-list-table {
+  padding: 5px 0px;
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  width: 100%;
+  table-layout: fixed;
+}/*# sourceMappingURL=style.css.map */

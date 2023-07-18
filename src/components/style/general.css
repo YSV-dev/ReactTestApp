@@ -1,0 +1,43 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0%;
+  min-height: 100vh;
+  position: relative;
+}
+.content .container {
+  flex: 1;
+}
+.content .wraper {
+  position: relative;
+  width: 100%;
+}
+
+.page {
+  position: absolute;
+}
+
+.page-enter-active {
+  animation: fade-in 1s forwards;
+}
+
+.page-exit-active {
+  animation: fade-out 1s forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=general.css.map */
